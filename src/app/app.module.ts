@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import {TransferHttpCacheModule} from '@nguniversal/common';
 import { NoPrerenderComponent } from './no-prerender/no-prerender.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,12 +16,7 @@ import { NoPrerenderComponent } from './no-prerender/no-prerender.component';
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full'},
-      { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule'},
-      { path: 'lazy/nested', loadChildren: './lazy/lazy.module#LazyModule'},
-      { path: 'no-prerender', component: NoPrerenderComponent}
-    ]),
+    AppRoutingModule,
     TransferHttpCacheModule,
   ],
   providers: [],

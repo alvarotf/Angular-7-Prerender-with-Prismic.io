@@ -13,6 +13,7 @@ package-lock.json
 /dist/
 /dist-server/
 /compiled/
+/bulma/node_modules/
 
 # Node #
 *.log
