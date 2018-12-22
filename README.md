@@ -1,15 +1,14 @@
-# Angular Universal Starter
+# Angular 7 Prerender with Prismic.io starter
 
 ![Angular Universal](https://angular.io/assets/images/logos/concept-icons/universal.png)
 
-A minimal Angular starter for Universal JavaScript using the [Angular CLI](https://github.com/angular/angular-cli)
-If you're looking for the Angular Universal repo go to [**angular/universal**](https://github.com/angular/universal)  
+![Prismic.io](https://prismic.io/website-assets/images/logo-dark.svg)
+
+ 
 
 ## Getting Started
 
-This demo is built following the [Angular-CLI Wiki guide](https://github.com/angular/angular-cli/wiki/stories-universal-rendering)
 
-We're utilizing packages from the [Angular Universal @nguniversal](https://github.com/angular/universal) repo, such as [ng-module-map-ngfactory-loader](https://github.com/angular/universal/modules/module-map-ngfactory-loader) to enable Lazy Loading.
 
 ---
 
@@ -39,8 +38,4 @@ This repo demonstrates the use of 2 different forms of Server Side Rendering.
 **Note**: To deploy your static site to a static hosting platform you will have to deploy the `dist/browser` folder, rather than the usual `dist`
 
 
-## Universal "Gotchas"
-Moved to [/angular/universal/blob/master/docs/gotchas.md](https://github.com/angular/universal/blob/master/docs/gotchas.md)
 
-# License
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
