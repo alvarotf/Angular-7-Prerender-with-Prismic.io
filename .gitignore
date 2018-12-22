@@ -31,3 +31,4 @@ webpack.records.json
 
 # Firebase #
 .firebase/*
+.firebaserc

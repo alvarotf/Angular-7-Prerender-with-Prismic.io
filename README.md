@@ -1,4 +1,4 @@
-# Angular 7 Prerender with Prismic.io starter
+# Angular 7 Prerender with Prismic.io
 
 ![Angular Universal](https://angular.io/assets/images/logos/concept-icons/universal.png)
 
@@ -8,6 +8,7 @@
 
 ## Getting Started
 
+This is based on the angular universal starter project.
 
 
 ---
