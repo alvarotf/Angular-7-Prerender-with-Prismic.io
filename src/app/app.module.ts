@@ -1,4 +1,4 @@
-import {BrowserModule} from '@angular/platform-browser';
+import {BrowserModule, BrowserTransferStateModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
 
@@ -20,6 +20,7 @@ import { TestBlogPostComponent } from './test-blog-post/test-blog-post.component
     BrowserModule.withServerTransition({appId: 'my-app'}),
     AppRoutingModule,
     TransferHttpCacheModule,
+    BrowserTransferStateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
