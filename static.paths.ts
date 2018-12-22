@@ -1,4 +1,5 @@
 export const ROUTES = [
   '/',
-  '/lazy'
+  '/lazy',
+  '/test-blog-post'
 ];
