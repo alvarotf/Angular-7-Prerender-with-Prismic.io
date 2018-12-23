@@ -29,7 +29,7 @@ export class TestBlogPostComponent implements OnInit {
   ngOnInit() {
     // load saved content, this prevents the flickering on low speed networks
     if (this.transferState.hasKey(this.blogPostDataKey)) {
-      this.title = this.transferState.get<Document>(this.blogPostDataKey).data[0].text;
+      this.title = this.transferState.get<Document>(this.blogPostDataKey).data.title[0].text;
       this.contentHtml = this.prismic.getHtml(this.transferState.get<Document>(this.blogPostDataKey).data.content);
     }
     this.asyncApiCallHelper.doTask(this.prismic.getTestPost()).pipe(take(1)).subscribe(data => {
